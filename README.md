@@ -15,13 +15,13 @@ Clone the project
   git clone https://github.com/liriolebron/DroneDelivery
 ```
 
-Go to the project directory
+Go to the repository location
 
 ```bash
   cd DroneDelivery
 ```
 
-Navigate to the main project
+Navigate to the main project directory
 
 ```bash
   cd DroneDelivery
