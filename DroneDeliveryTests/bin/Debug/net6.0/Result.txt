@@ -1,0 +1,15 @@
+Most efficient delivery trips calculation
+Total trips: 4
+
+DroneA
+Trip #1
+LocationC,LocationD,LocationE
+Trip #2
+LocationI,LocationJ
+
+DroneB
+Trip #1
+LocationA,LocationB
+Trip #2
+LocationF,LocationG,LocationH
+

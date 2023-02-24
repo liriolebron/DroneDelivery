@@ -1,0 +1,16 @@
+/Users/liriolebron/RiderProjects/DroneDelivery/DroneDelivery/bin/Debug/net6.0/DroneDelivery
+/Users/liriolebron/RiderProjects/DroneDelivery/DroneDelivery/bin/Debug/net6.0/Data/Shipments.csv
+/Users/liriolebron/RiderProjects/DroneDelivery/DroneDelivery/bin/Debug/net6.0/DroneDelivery.deps.json
+/Users/liriolebron/RiderProjects/DroneDelivery/DroneDelivery/bin/Debug/net6.0/DroneDelivery.runtimeconfig.json
+/Users/liriolebron/RiderProjects/DroneDelivery/DroneDelivery/bin/Debug/net6.0/DroneDelivery.dll
+/Users/liriolebron/RiderProjects/DroneDelivery/DroneDelivery/bin/Debug/net6.0/DroneDelivery.pdb
+/Users/liriolebron/RiderProjects/DroneDelivery/DroneDelivery/obj/Debug/net6.0/DroneDelivery.csproj.AssemblyReference.cache
+/Users/liriolebron/RiderProjects/DroneDelivery/DroneDelivery/obj/Debug/net6.0/DroneDelivery.GeneratedMSBuildEditorConfig.editorconfig
+/Users/liriolebron/RiderProjects/DroneDelivery/DroneDelivery/obj/Debug/net6.0/DroneDelivery.AssemblyInfoInputs.cache
+/Users/liriolebron/RiderProjects/DroneDelivery/DroneDelivery/obj/Debug/net6.0/DroneDelivery.AssemblyInfo.cs
+/Users/liriolebron/RiderProjects/DroneDelivery/DroneDelivery/obj/Debug/net6.0/DroneDelivery.csproj.CoreCompileInputs.cache
+/Users/liriolebron/RiderProjects/DroneDelivery/DroneDelivery/obj/Debug/net6.0/DroneDelivery.dll
+/Users/liriolebron/RiderProjects/DroneDelivery/DroneDelivery/obj/Debug/net6.0/refint/DroneDelivery.dll
+/Users/liriolebron/RiderProjects/DroneDelivery/DroneDelivery/obj/Debug/net6.0/DroneDelivery.pdb
+/Users/liriolebron/RiderProjects/DroneDelivery/DroneDelivery/obj/Debug/net6.0/DroneDelivery.genruntimeconfig.cache
+/Users/liriolebron/RiderProjects/DroneDelivery/DroneDelivery/obj/Debug/net6.0/ref/DroneDelivery.dll
