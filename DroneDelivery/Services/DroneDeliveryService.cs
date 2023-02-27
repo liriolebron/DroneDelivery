@@ -22,7 +22,7 @@ public class DroneDeliveryService
         try
         {
             drones = GetDronesFromInput(file);
-            shipments = GetShipmentFromInput(file);
+            shipments = GetShipmentsFromInput(file);
         }
         catch (Exception ex)
         {
@@ -33,7 +33,7 @@ public class DroneDeliveryService
         // Permute the drone array 
         var dronePermutations = GenerateDronePermutations(drones);
 
-        var droneExecutions = new List<ShipmentExecution>();
+        var shipmentExecutions = new List<ShipmentExecution>();
 
         // Calculate best trip number by generating deliveries using drone combinations
         foreach (var dronePermutation in dronePermutations)
@@ -47,7 +47,7 @@ public class DroneDeliveryService
                 Trips = new List<DroneTrip>()
             };
             
-            droneExecutions.Add(currentExecution);
+            shipmentExecutions.Add(currentExecution);
 
             var iterationCount = 0;
 
@@ -95,14 +95,14 @@ public class DroneDeliveryService
             }
 
             // Remove execution if it didn't yield fewer trips
-            if (iterationCount == permutation.Count() ||
-                currentExecution.Trips.Count() > droneExecutions.Min(d => d.Trips.Count()))
+            if (iterationCount == permutation.Length ||
+                currentExecution.Trips.Count > shipmentExecutions.Min(d => d.Trips.Count()))
             {
-                droneExecutions.Remove(currentExecution);
+                shipmentExecutions.Remove(currentExecution);
             }
         }
 
-        return GenerateOutput(droneExecutions);
+        return GenerateOutput(shipmentExecutions);
     }
 
     /// <summary>
@@ -188,7 +188,7 @@ public class DroneDeliveryService
     /// </summary>
     /// <param name="input">CSV file</param>
     /// <returns>Location array</returns>
-    private IEnumerable<Shipment> GetShipmentFromInput(string input)
+    private IEnumerable<Shipment> GetShipmentsFromInput(string input)
     {
         var lines = input.Split('\n');
         
